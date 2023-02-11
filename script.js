@@ -1,8 +1,9 @@
+// Setting up the experience, by the way, you just died.
 alert("You just died. Welcome! Everything is fine.");
 
 
 
-// Simple Status Response:
+// A random search response:
 function statusAlert() {
 
   const databaseResult = Math.floor(Math.random()*2);

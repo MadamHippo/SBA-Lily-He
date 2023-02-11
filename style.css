@@ -35,7 +35,7 @@ body {
 }
 
 #fate-title-button:hover{
-  background-color: #015d9c;
+  background-color: #fec013;
 }
 
 
@@ -130,7 +130,7 @@ header{
 
 
 /* MAIN */
-.titlecard-image, .michael {
+.titlecard-image, .michael, #trying-to-be-good, #good-person{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -264,10 +264,40 @@ iframe {
 }
 
 
-
 /* FOOTER */
 footer {
   text-align: center;
   font-size: 1em;
   color: #015d9c;
+}
+
+/* SCOREBOARD TABLE */
+#positive-deeds {
+  border-collapse: collapse;
+  margin: auto;
+  column-count: 2;
+  column-gap: 20px;
+  width: 50%;
+}
+
+#negative-deeds{
+  border-collapse: collapse;
+  margin: auto;
+  column-count: 2;
+  column-gap: 20px;
+  width: 50%;
+
+}
+
+#positive-title{
+  background-color: rgb(80, 241, 80);
+}
+
+#negative-title{
+  background-color: rgb(255, 72, 72);
+
+}
+
+th, td {
+  text-overflow: ellipsis;
 }
