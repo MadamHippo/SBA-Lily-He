@@ -1,0 +1,273 @@
+/* FONTS */ 
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+/* TEST MY FATE */
+#ask-title{
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color:rgb(255, 255, 255); 
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 25px #000000;
+  font-size: 8em;
+}
+
+
+.good-place{
+  color: #fff;
+  font-size: 2.8em;
+  text-align:center;
+  position: relative;
+  top: -6em;
+  color:rgb(255, 255, 255); 
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 5px #030303;
+}
+
+#fate-title-button{
+  justify-self: center;
+}
+
+#fate-title-button:hover{
+  background-color: #015d9c;
+}
+
+
+
+
+/* HEADER */
+header{
+  background-color: #fec013;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+
+#navbar ul li:hover
+{
+  background-color: #ffd96f;
+
+}
+
+#navbar ul ul{
+  padding: 0;
+  display:none;
+  position: absolute;
+  top: 100%;
+}
+
+#navbar ul ul li {
+  float:none;
+  width: 200px;
+  padding: 2%;
+}
+
+#navbar ul li{
+  background-color: #fec013;
+  display: inline-block;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar ul li a{
+  color:	#015d9c;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navbar ul li:hover > ul {
+  display: block;
+}
+
+
+
+
+/* MEDIA HEADER */
+
+@media (min-width:768px){header{height: 60px;}}
+@media (max-width: 768px){header{height: 50px;}}
+
+@media (min-width:768px){
+  header{
+    height: 60px;
+  }
+  #navbar ul li a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:768px) and (min-width:576px){
+  header{
+    height: 50px;
+  }
+  #navbar ul li a{
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width:576px){
+  header{
+    height: 40px;
+  }
+  #navbar ul li a{
+    font-size: 14px;
+    padding: 0 15px;
+  }
+}
+
+
+
+/* MAIN */
+.titlecard-image, .michael {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .titlecard-image {
+    position: relative;
+    left: 0;
+    transform: none;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* ABOUT - WHAT IS THE GOOD PLACE? */
+#about{
+  background-color: #fec013;
+  color: #015d9c;
+}
+
+@media (min-width:768px){
+  #about{
+    padding: 30px 40px;
+  }
+}
+
+
+/* WHY YOU SHOULD WATCH */
+
+#why{
+  background-color: #ffffff;
+  color: #015d9c;
+}
+@media (min-width:768px){
+#why{
+  margin: 80px;
+  padding-right: 5%;
+}
+#why h2{
+  margin-bottom: 60px;
+}
+} 
+@media (max-width: 768px){      
+#why{
+  padding: 25px;
+  text-align: left;
+}
+#why h2{
+  margin-bottom: -20px;
+}
+}
+
+#why div ul{
+list-style-type: none;  
+}
+@media (min-width:768px){
+#why div ul{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  justify-content: center;
+}}
+@media (max-width: 768px){        
+#why div ul{
+  display: inline;
+}
+#why div ul h3{
+  margin-top: 10px;
+  margin-bottom: -10px;
+}} 
+
+
+/* JANET */
+.janet{
+  width: 40%;
+  height: auto;
+}
+
+/* JANET HEADSHOT */
+.janet-headshot{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(253, 251, 248);
+} 
+
+.janet-headshot{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* SEARCH */
+#database-search{
+  padding-top: 5em;
+  font-size: 1em;
+  color: purple;
+  text-align: right;
+}
+
+/* QUOTE */
+
+#quote{
+  background-color: #fec013;
+  color: #015d9c;
+  text-align: center;
+  padding: 25px;
+  font-size: 1.1em;
+}
+
+#quote q{
+  font-style: italic;
+  font-style: bold;
+  font-size: 1.4em;
+}
+
+/* YOUTUBE */
+.video-container {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 6%;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 1em;
+  color: #015d9c;
+}
