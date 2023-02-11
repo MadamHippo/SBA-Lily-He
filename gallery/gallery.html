@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Test My Fate</title>
+    <a href="../index.html"></a>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato" type="text/css">
+    <script src="test-my-fate.js"></script>
+    <script src="script.js"></script>
+    <script src="gallery-party-calculator.js"></script>
+  </head>
+
+  
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html">What is The Good Place?</a></li>
+          <li><a href="../test-my-fate/test-my-fate.html">Test My Fate</a></li>
+          <li>
+            <a href="#">Visit The Gang</a>
+            <ul>
+              <li><a href="../table\table.html">Chidi's Research</a></li>
+              <li><a href="#">Art With Tahani</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+      <h4>Tahani is having another gallery opening, which means another opening day party. You and Janet can her organize.  This calculator should give you the total food budget for the party.
+      </h4>
+      <img src="https://media.giphy.com/media/xUOxfc6vl01sglvVy8/giphy.gif" alt="tahani-party" id = "tahani-party">
+      <form>
+        <br>
+        <fieldset>
+          <legend>Tahani's New Art Gallery Opening, Who's Coming?</legend>
+          <input type="checkbox" id="chidi" name="character" value="chidi">
+          <label for="chidi">Chidi Anagonye </label><br>
+          <input type="checkbox" id="eleanor" name="character" value="eleanor">
+          <label for="eleanor">Eleanor Shellstrop</label><br>
+          <input type="checkbox" id="mindy" name="character" value="mindy">
+          <label for="mindy">Mindy St. Claire</label><br>
+          <input type="checkbox" id="jason" name="character" value="jason">
+          <label for="jason">Jason Mendoza</label><br>
+          <input type="checkbox" id="michael" name="character" value="michael">
+          <label for="michael">Michael (Architect)</label><br>
+          <input type="checkbox" id="doug" name="character" value="doug">
+          <label for="doug">Doug Forcett</label><br>
+        </fieldset>
+
+        <br>
+        <fieldset>
+          <legend>Let's Have Janet Procure Food Based on People:</legend>
+          <input type="radio" id="maafe" name="maafe" value="maafe">Grandma's Maafe($15)
+          <input type="radio" id="scone" name="scone" value="scone">Maple Butter Scone($10)
+          <input type="radio" id="poppers" name="poppers" value="poppers">Jalapeno Poppers($14)
+          <input type="radio" id="shrimp" name="shrimp" value="shrimp">Giant Cocktail Shrimps($25)
+        </fieldset>
+
+        <br>
+        <fieldset>
+        <legend>Not a Party Without Cake! Choose Your Flavor:</legend>
+         
+                <select id="filling" name='filling'>
+                <option value="None">Select Filling</option>
+                <option value="Lemon">Lemon($5)</option>
+                <option value="Custard">Custard($5)</option>
+                <option value="Fudge">Fudge($7)</option>
+                <option value="Mocha">Mocha($8)</option>
+                <option value="Raspberry">Raspberry($10)</option>
+                <option value="Pineapple">Pineapple($5)</option>
+                <option value="Dobash">Dobash($9)</option>
+                <option value="Mint">Mint($5)</option>
+                <option value="Cherry">Cherry($5)</option>
+                <option value="Apricot">Apricot($8)</option>
+                <option value="Buttercream">Buttercream($7)</option>
+                <option value="Chocolate Mousse">Chocolate Mousse($12)</option>
+               </select>
+          <br>
+          <legend>Napkins & Utensils?</legend>
+          <input type="radio" id="Napkins" name="Napkins" value="Napkins">Yes
+          <input type="radio" id="Napkins" name="Napkins" value="Napkins">No
+    
+          <input type="submit" value="Submit" onclick="calculateTotal()">
+      </form>
+    </main>
+  </fieldset>
+
+  <img src="https://media.giphy.com/media/3oxHQww8V7Xe7eVHFK/giphy.gif" alt="tahani-party" id = "tahani-party">
+
+
+    <footer>
+      <a href="https://thefoodplace.cafe/">❤️See "The Good Place" Fan Made Menu!</a><p>
+        The Good Place &copy; 2023 Made by Lily 😊 
+    </footer>
+
+    
+  </body>
+</html>

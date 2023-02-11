@@ -3,10 +3,19 @@
 <head>
   <meta charset="UTF-8">
     <title>Test My Fate</title>
+    <!--My 1 mandatory internal css styling (for demo, not good practice)-->
+    <style>
+      body{
+        background-color: rgb(245, 247, 234);
+      }
+    </style>
+
+
     <a href="../index.html"></a>
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato" type="text/css">
     <script src="test-my-fate.js"></script>
+    <script src="script.js"></script>
   </head>
 
   
@@ -17,10 +26,10 @@
           <li><a href="../index.html">What is The Good Place?</a></li>
           <li><a href="#">Test My Fate</a></li>
           <li>
-            <a href="#">Visit Jeremy Bearimy</a>
+            <a href="#">Visit The Gang</a>
             <ul>
-              <li><a href="../scoreboard\table.html">The Score Board</a></li>
-              <li><a href="#">The Gallery</a></li>
+              <li><a href="../table\table.html">Chidi's Research</a></li>
+              <li><a href="../gallery\gallery.html">Art With Tahani</a></li>
             </ul>
           </li>
         </ul>
@@ -29,11 +38,10 @@
     
 
     <main>
-      <div>
-        <button onclick="goodOrBad()" id="fate-title-button">Tell Me My Fate</button><br>
-      </div>
-
       <div class="ask-janet">
+        <div id="fate-content"></div>
+        <button onclick="goodOrBad()" id="fate-button">What About That Time...</button><br>
+
         <h1 id = "ask-title">Ask Janet</h1>
         <div class = "janet-headshot"><img src="https://static.onecms.io/wp-content/uploads/sites/6/2018/12/nup_183523_0087-2000.jpg" class="janet-headshot"></div>
       </div>
@@ -43,7 +51,7 @@
             </div>
       </div>
       <footer>
-        The Good Place &copy; 2023 Made by Lily 
+        The Good Place &copy; 2023 Made by Lily 😊 
       </footer>
     </main>
   </body>

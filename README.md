@@ -16,13 +16,16 @@ The Good Place is a comedic TV show that takes place in the afterlife, where a r
 To view this project run
 
 ```bash
-  run index.html in your browser
+  open index.html with whatever browser of your choosing.
 ```
 
 
 ## Demo
 
+- [Good Place Tribute - My SBA Video Demo](https://youtu.be/ezMUqCTcEnw)
 This is a small website project that showcases my skills in HTML, CSS and Javascript. The website contains 3 pages with a consistent grid system and follows the methodologies of visual design to provide a user-friendly experience.
+
+
 ## Project Goal Specifications
 
 HTML
