@@ -164,6 +164,7 @@ header{
 #about{
   background-color: #fec013;
   color: #015d9c;
+  text-shadow: .5px .5px .5px #acacac;
 }
 
 @media (min-width:768px){
@@ -178,6 +179,8 @@ header{
 #why{
   background-color: #ffffff;
   color: #015d9c;
+  text-shadow: .5px .5px .5px #dfdfdf;
+
 }
 @media (min-width:768px){
 #why{
