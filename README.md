@@ -1,7 +1,5 @@
 
-# The Good Place Tribute
-
-What is The Good Place?
+# The Good Place Tribute - What is The Good Place?
 
 The Good Place is a comedic TV show that takes place in the afterlife, where a recently deceased woman named Eleanor tries to become a better person with the help of her afterlife architect and the all-knowing being, Janet. The show blends humor, philosophy, and relatable characters to create a unique viewing experience. With its witty writing and thought-provoking themes, The Good Place is a must-watch for fans of comedy and introspection. Join Eleanor on her journey to better herself and find happiness in the afterlife!
 
