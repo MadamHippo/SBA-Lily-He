@@ -319,7 +319,7 @@ th, td {
   text-overflow: ellipsis;
 }
 
-/* SPOILER */
+/* SPOILERS */
 .spoiler {
   position: relative;
   width: fit-content;
